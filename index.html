@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>CalculadoraWeb</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+        <!--Cabeçalho Página com HEADER-->
+        <br>
+        <header class="header">
+            <img src="calculadora1.png" alt="calculadora1">
+            <span>Calculadora</span>
+            <p>Web</p>
+        </header>
+        <!--Calculadora-->
+        <div class="calculation">
+            <div id="calculationDisplay">
+            <input type="text" id="display"></div>
+
+            <!--Operadores1-->
+            <button type="button" id="btn.Clear">
+                <img src="c.png" alt="limpar">
+            </button>
+            <button type="button" class="operador">
+                <img src="ponto-final.png" alt=".">
+            </button>
+            <button type="button" class="operador">
+                <img src="porcentagem.png" alt="%">
+            </button>
+            <button type="button" class="operador">
+                <img src="dividir.png" alt="/">
+            </button>
+            
+            <!--Botões numéricos-->
+            <button type="button" class="number">
+                <img src="um.png" alt="1">
+            </button>
+
+            <button type="button" class="number">
+                <img src="dois.png" alt="2">  
+            </button>
+            <button type="button" class="number">
+                <img src="três.png" alt="3">  
+            </button>
+
+            <!--Operadores coluna-->
+            <button type="button" class="operador">
+                <img src="x.png" alt="*">
+            </button>
+
+            <!--Botões numéricos-->
+            <button type="button" class="number">
+                <img src="quatro.png" alt="4">  
+            </button>
+            <button type="button" class="number">
+                <img src="cinco.png" alt="5">  
+            </button>
+            <button type="button" class="number">
+                <img src="seis.png" alt="6">  
+            </button>
+
+            <!--Operadores coluna-->
+            <button type="button" class="operador">
+                <img src="menos.png" alt="-">
+            </button>
+
+            <!--Botões numéricos-->
+            <button type="button" class="number">
+                <img src="sete.png" alt="7">  
+            </button>
+            <button type="button" class="number">
+                <img src="oito.png" alt="8">  
+            </button>
+            <button type="button" class="number">
+                <img src="nove.png" alt="9">  
+            </button>
+
+            <!--Operadores coluna-->
+            <button type="button" class="operador">
+                <img src="mais.png" alt="+">
+            </button>
+
+            <!--Botões númericos-->
+            <button type="button" class="number">
+                <img src="zero.png" alt="0">  
+            </button>
+
+            <!--Igualdade-->
+            <button id="equals" class="equals">
+                <img src="igual.png" alt="">  
+            </button>
+        </div>
+         <script src="JavaScript.js"></script>
+        <!--Biblioteca math.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.0/math.min.js"></script>
+    </body>
+
+</html>
